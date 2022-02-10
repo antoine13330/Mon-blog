@@ -1,5 +1,5 @@
 import React from "react";
-
+import Cat from "../assets/cat.png"
 function Home() {
   return (
     <div className="home">
@@ -8,7 +8,7 @@ function Home() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
+              src={Cat}
               alt=""
             />
           </div>
