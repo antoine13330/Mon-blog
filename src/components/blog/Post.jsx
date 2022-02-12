@@ -1,18 +1,13 @@
-import React, { useEffect } from "react";
-import { useParams } from "react-router";
+import React from "react";
+
 
 function Post() {
-  let { postSlug } = useParams();
-
-  useEffect(() => {
-    // Fetch post using the postSlug
-  }, [postSlug]);
 
   return (
     <div className="home">
       <div class="container">
         <h1 className="mt-5">This is a Post Title</h1>
-        <h6 className="mb-5">The post slug is, {postSlug}</h6>
+        <h6 className="mb-5">The post slug is, 1</h6>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

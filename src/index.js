@@ -23,7 +23,7 @@ ReactDOM.render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
-        <Route path=":postSlug" element={<Post />} />
+        <Route path='/blog/test' element={<Post />} />
       </Route>
     </Routes>
     <Footer />

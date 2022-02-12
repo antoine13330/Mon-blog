@@ -6,3 +6,4 @@ export { default as Contact } from "./Contact";
 export { default as Blog } from "./blog/Blog";
 export { default as Posts } from "./blog/Posts";
 export { default as Post } from "./blog/Post";
+// permet de recuperer tout les components dans le  index.js dans ../components
