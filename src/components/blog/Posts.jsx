@@ -32,7 +32,7 @@ function Posts() {
         onClick={() => setTestons("blue")}
         >Blue</button>
 
-        <Link to="/blog/Post2">
+        <Link to="/blog/test1">
           <div class="row align-items-center my-5">
             <div class="col-lg-7">
               <img

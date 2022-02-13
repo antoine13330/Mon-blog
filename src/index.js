@@ -3,30 +3,21 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import {
-  Navigation,
-  Footer,
-  Home,
-  About,
-  Contact,
-  Blog,
-  Posts,
-  Post,
-} from "./components";
-
+import * as Component from "./components";
 ReactDOM.render(
   <Router>
-    <Navigation />
+    <Component.Navigation />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/blog" element={<Blog />}>
-        <Route path="" element={<Posts />} />
-        <Route path='/blog/test' element={<Post />} />
+      <Route path="/" element={<Component.Home />} />
+      <Route path="/about" element={<Component.About />} />
+      <Route path="/contact" element={<Component.Contact />} />
+      <Route path="/blog" element={<Component.Blog />}>
+        <Route path="" element={<Component.Posts />} />
+        <Route path='/blog/test' element={<Component.Post />} />
+        <Route path='/blog/test1' element={<Component.Post1 />} />
       </Route>
     </Routes>
-    <Footer />
+    <Component.Footer />
   </Router>,
 
   document.getElementById("root")
