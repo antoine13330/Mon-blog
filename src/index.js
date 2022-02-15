@@ -19,7 +19,7 @@ ReactDOM.render(
         <Route path='/blog/test1' element={<Component.Post1 />} />
         <Route path='/blog/test1' element={<Component.Post1 />} />
         <Route path='/blog/test1' element={<Component.Post1 />} />
-        <Route path="/blog/Clonernews" element={<Component.Clonernews />}/>
+        <Route path="/blog/clonernews" element={<Component.Clonernews />}/>
           
       </Route>
     </Routes>
