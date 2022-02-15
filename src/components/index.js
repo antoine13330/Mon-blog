@@ -7,6 +7,6 @@ export { default as Blog } from "./blog/Blog";
 export { default as Posts } from "./blog/Posts";
 export { default as Post1 } from "./blog/Post1";
 export { default as Post } from "./blog/Post";
-export { default as Clonernews } from "./blog/B1-Clonernews";
+export { default as Clonernews } from "./blog/articles/B1-Clonernews";
 
 // permet de recuperer tout les components dans le  index.js dans ../components
